@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(247, 242, 255);
+}
+
+.header{
+    background-color:rgb(236, 225, 255);
+    width:40%;
+    border-radius:5px;
+    padding:15px
+}
+
+canvas{
+    animation-name:animation1;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animation1{
+    from{box-shadow:1px 1px 38px rgb(233, 203, 208);}
+    to{box-shadow:1px 1px 38px rgb(255, 255, 255);}
+}
